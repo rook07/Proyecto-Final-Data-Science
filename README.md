@@ -82,8 +82,8 @@ Costa oeste de Estados Unidos (Oregon, California, Washington).
 
 ## 👥 Equipo de Trabajo
 
-Rocío Ruiz - Project Manager
-Juan Pablo Fernández
-Fernando Hernández
-Sergio Piratoba
-Michel Torrealba
+- Rocío Ruiz - Project Manager
+- Juan Pablo Fernández
+- Fernando Hernández
+- Sergio Piratoba
+- Michel Torrealba
