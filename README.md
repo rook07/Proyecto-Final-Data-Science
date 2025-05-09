@@ -1,7 +1,7 @@
 
-# 🍽️ TasteMatch AI – Sistema de Recomendación Gastronómica
+# 🍽️ Sistema de Recomendación Gastronómica
 
-TasteMatch AI es una plataforma de recomendaciones personalizadas de restaurantes basada en reseñas de usuarios, análisis de sentimiento, conexiones sociales y geolocalización. Desarrollado como parte del proyecto final grupal del Bootcamp Henry, este sistema tiene como objetivo mejorar la experiencia de descubrimiento gastronómico en la costa oeste de Estados Unidos y, al mismo tiempo, ofrecer información estratégica de inversión para el cliente.
+XXXXXXXXXXXX es una plataforma de recomendaciones personalizadas de restaurantes basada en reseñas de usuarios, análisis de sentimiento, conexiones sociales y geolocalización. Este sistema tiene como objetivo mejorar la experiencia de descubrimiento gastronómico en la costa oeste de Estados Unidos y, al mismo tiempo, ofrecer información estratégica de inversión para el cliente.
 
 ---
 
@@ -52,8 +52,6 @@ Diseñar y desarrollar una solución inteligente que permita a los usuarios desc
 2. 🍽️ **Restaurantes con mayor crecimiento en reseñas y su categoría**
 3. 🗺️ **Distribución porcentual de categorías por ciudad o localidad**
 4. 🔥 **Categorías emergentes por región**
-5. 🧊 **Zonas con alta negatividad o baja calidad**
-6. 💎 **Restaurantes altamente valorados con baja competencia**
 
 ---
 
@@ -84,4 +82,8 @@ Costa oeste de Estados Unidos (Oregon, California, Washington).
 
 ## 👥 Equipo de Trabajo
 
-Este proyecto fue desarrollado por el equipo de estudiantes del Bootcamp Henry en su etapa final de formación. Participamos como una consultora de datos simulada bajo la guía de un Product Owner y un Henry Mentor.
+Rocío Ruiz - Project Manager
+Juan Pablo Fernández
+Fernando Hernández
+Sergio Piratoba
+Michel Torrealba
