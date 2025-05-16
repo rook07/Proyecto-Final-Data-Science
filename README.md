@@ -1,67 +1,91 @@
 
-# 🍽️ Sistema de Recomendación Gastronómica
+# 📌 Análisis de Reseñas para In-N-Out - Axon Analytics
 
-XXXXXXXXXXXX es una plataforma de recomendaciones personalizadas de restaurantes basada en reseñas de usuarios, análisis de sentimiento, conexiones sociales y geolocalización. Este sistema tiene como objetivo mejorar la experiencia de descubrimiento gastronómico en la costa oeste de Estados Unidos y, al mismo tiempo, ofrecer información estratégica de inversión para el cliente.
+## 🧠 Contexto General
 
----
+En la actualidad, las plataformas de reseñas como Google Maps y Yelp concentran millones de opiniones sobre servicios de todo tipo, en especial del sector gastronómico. Estas reseñas representan una fuente de datos de altísimo valor para las empresas, ya que reflejan de forma directa la percepción, satisfacción y preferencias del cliente.
+
+In-N-Out, reconocida cadena de comida rápida con fuerte presencia en el estado de California, se enfrenta a nuevos desafíos en un mercado altamente competitivo: mejorar su operación actual, entender su posicionamiento frente a la competencia y encontrar zonas estratégicas para su expansión.
+
+A través del análisis masivo y sistemático de reseñas, este proyecto busca brindar a In-N-Out una solución analítica que permita transformar los comentarios de los usuarios en información accionable para la toma de decisiones comerciales.
+
+## 🧑‍💼 Cliente Simulado
+
+**Empresa:** In-N-Out Burger  
+**Ubicación:** Estado de California (EE.UU.)  
+**Sector:** Comida rápida  
+**Necesidades del negocio:**
+- Diagnosticar su posicionamiento actual.
+- Comparar sus sucursales entre sí y contra la competencia directa.
+- Evaluar condiciones óptimas para seleccionar nuevas zonas de apertura.
+
+## ❗ Problemáticas Detectadas
+
+- Falta de herramientas internas para el análisis sistemático de reseñas.
+- Dificultad para comparar el desempeño entre sucursales a través de métricas cuantificables.
+- Ausencia de criterios objetivos para seleccionar nuevas ubicaciones potenciales.
+- Desaprovechamiento del contenido textual de las reseñas, que muchas veces queda sin analizar a fondo.
 
 ## 🎯 Objetivo General
 
-Diseñar y desarrollar una solución inteligente que permita a los usuarios descubrir nuevos restaurantes alineados con sus preferencias, emociones y ubicación. A su vez, el sistema ofrece análisis del mercado local para identificar oportunidades de inversión en el sector gastronómico.
+Desarrollar una solución analítica integral basada en datos públicos de Google Maps y Yelp para permitir que In-N-Out:
+- Evalúe su desempeño actual,
+- Identifique oportunidades de mejora en sus locales,
+- Y explore zonas estratégicas para abrir nuevas sucursales dentro del estado de California.
 
----
+## 🎯 Objetivos Específicos
 
-## 🧭 Alcance del Proyecto
+- Recopilar, limpiar y estructurar datos de Google Maps y Yelp sobre locales gastronómicos.
+- Realizar un análisis exploratorio detallado para comprender tendencias de reseñas, puntuaciones, atributos y localización.
+- Implementar modelos de NLP para clasificar automáticamente las reseñas según su sentimiento.
+- Medir el posicionamiento de In-N-Out frente a otras cadenas de comida rápida en base a KPIs claros.
+- Construir un dashboard interactivo que permita visualizar la reputación por sucursal, la evolución de reseñas en el tiempo y las zonas con oportunidad de expansión.
+- Documentar todo el proceso con claridad, desde el ETL hasta el modelo de ML y la visualización.
 
-### ✅ Incluido en el alcance
+## 📊 KPIs Definidos
 
-- Análisis de reseñas y ratings desde Google Maps y Yelp (2016 - actualidad).
-- Procesamiento de texto con NLP para obtener sentimiento y tópicos clave.
-- Detección de usuarios similares ("amigos") por comportamiento de reseña.
-- Integración de geolocalización para ofrecer recomendaciones cercanas.
-- Desarrollo de motor de recomendación híbrido (content-based + colaborativo).
-- Construcción de un MVP funcional con interfaz para:
-  - Sugerencias personalizadas
-  - Explicabilidad de recomendaciones
-  - Filtros por ubicación, categoría y conexiones
-- Visualización de KPIs estratégicos mediante dashboards y gráficos.
-- Documentación técnica completa de cada etapa.
+1. **Tasa de crecimiento de reseñas por localidad (KPI 1):**  
+   Mide el incremento porcentual de reseñas publicadas trimestre a trimestre por ciudad o zona. Refleja visibilidad y volumen de interacción de clientes con cada sucursal.
 
-### ⛔ Fuera de alcance
+2. **Net Promoter Score estimado (KPI 2):**  
+   A partir del análisis de sentimiento, clasificamos reseñas como Promotores, Pasivos o Detractores. El resultado es proporcional a la población de la zona.
 
-- Despliegue en producción real
-- Scraping activo desde plataformas externas
-- Datos fuera del rango 2016–actualidad
-- Verticales distintas a restaurantes
+3. **Densidad de población por local gastronómico (KPI 3):**  
+   Compara la cantidad de personas por restaurante en cada localidad para detectar zonas saturadas o con oportunidad.
 
----
+4. **Influencia de atributos en el rating promedio (KPI 4):**  
+   Analiza qué servicios ofrecidos por los locales (ej: delivery, accesibilidad, atención) están correlacionados con mejores calificaciones.
 
-## 🧰 Herramientas Utilizadas
+## 🧰 Stack Tecnológico
 
-- **Lenguajes**: Python, PHP, JavaScript
-- **Frontend**: HTML, CSS, Bootstrap, Ajax
-- **Entorno**: Visual Studio Code
-- **Visualización**: Tableau
-- **Frameworks**: Streamlit (MVP), Pandas, Scikit-learn.
+- **Python (VSCode):** pandas, numpy, matplotlib, seaborn, wordcloud, scikit-learn
+- **Tableau:** visualización del dashboard final
+- **Hostinger + SQL:** almacenamiento de datos
+- **Google Cloud Platform (Dataflow):** procesamiento ETL escalable
+- **GitHub:** control de versiones, colaboración y documentación del proyecto
 
----
+## 🧪 Metodología de Trabajo
 
-## 📊 KPIs Estratégicos
+- Trabajo colaborativo entre 5 integrantes del equipo Axon.
+- División clara de roles: análisis de datos, modelado, visualización, documentación.
+- Reuniones diarias y seguimiento de tareas con cronograma Gantt.
+- Validación cruzada de entregables y ajustes iterativos.
+- Priorización de objetivos realistas y delimitación clara del alcance.
 
-1. 📈 **Incremento de reseñas en el tiempo por estado**
-2. 🍽️ **Restaurantes con mayor crecimiento en reseñas y su categoría**
-3. 🗺️ **Distribución porcentual de categorías por ciudad o localidad**
-4. 🔥 **Categorías emergentes por región**
+## ✂️ Alcance del Proyecto
 
----
+**Incluido:**
+- Análisis exclusivo del estado de California.
+- Solo negocios etiquetados como *fast food*.
+- Clasificación de reseñas desde 2016 hasta la actualidad.
+- Visualización de datos históricos, sentimiento y KPIs estratégicos.
 
-## 🌎 Área de Análisis
+**Excluido:**
+- Análisis fuera de California.
+- Predicción futura.
+- Datos internos confidenciales de la cadena.
 
-Costa oeste de Estados Unidos (Oregon, California, Washington).
-
----
-
-## 📁 Estructura del Repositorio
+## 🗂️ Estructura del Repositorio
 
 ```
 ├── data/                  # Datasets originales y procesados
@@ -71,7 +95,14 @@ Costa oeste de Estados Unidos (Oregon, California, Washington).
 ├── README.md              # Este archivo
 ```
 
----
+
+## 🚀 Valor de la Solución para el Cliente
+
+- Conocer el posicionamiento de cada sucursal.
+- Detectar oportunidades de expansión en zonas estratégicas.
+- Medir el impacto de ciertos atributos en la satisfacción del cliente.
+- Tomar decisiones basadas en datos concretos y actualizados.
+
 
 ## 📌 Estado del Proyecto
 
