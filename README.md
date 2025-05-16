@@ -1,5 +1,5 @@
 
-# 📌 Análisis de Reseñas para In-N-Out - Axon Analytics
+# 📌 Análisis de Reseñas para In-N-Out | Axon Analytics
 
 ## 🧠 Contexto General
 
