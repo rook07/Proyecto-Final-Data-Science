@@ -61,7 +61,7 @@ Desarrollar una solución analítica integral basada en datos públicos de Googl
 - **Python (VSCode):** pandas, numpy, matplotlib, seaborn, wordcloud, scikit-learn
 - **Tableau:** visualización del dashboard final
 - **Hostinger + SQL:** almacenamiento de datos
-- **Google Cloud Platform (Dataflow):** procesamiento ETL escalable
+- **Google Cloud Platform (Vertex AI):** procesamiento ETL escalable
 - **GitHub:** control de versiones, colaboración y documentación del proyecto
 
 ## 🧪 Metodología de Trabajo
