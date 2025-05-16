@@ -9,7 +9,7 @@ In-N-Out, reconocida cadena de comida rápida con fuerte presencia en el estado 
 
 A través del análisis masivo y sistemático de reseñas, este proyecto busca brindar a In-N-Out una solución analítica que permita transformar los comentarios de los usuarios en información accionable para la toma de decisiones comerciales.
 
-## 🧑‍💼 Cliente Simulado
+## 🧑‍💼 Cliente
 
 **Empresa:** In-N-Out Burger  
 **Ubicación:** Estado de California (EE.UU.)  
