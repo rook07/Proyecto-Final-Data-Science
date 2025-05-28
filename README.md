@@ -98,6 +98,7 @@ Desarrollar una solución analítica integral basada en datos públicos de Googl
 ```
 ├── data/                  # Datasets originales y procesados
 ├── notebooks/             # Notebooks de EDA, limpieza y modelos
+├── etl/                   # Scripts de extracción, transformación y carga (ETL) de datos crudos
 ├── src/                   # Código fuente del recomendador
 ├── dashboards/            # Visualizaciones y análisis de KPIs
 ├── README.md              # Este archivo
