@@ -68,6 +68,10 @@ Desarrollar una solución analítica integral basada en datos públicos de Googl
 - **Google Cloud Platform (Vertex AI):** procesamiento ETL escalable
 - **GitHub:** control de versiones, colaboración y documentación del proyecto
 
+  <p align="center">
+  <img src="src/flujo.jpeg" alt="Banner del Proyecto" width="100%">
+</p>
+
 ## 🧪 Metodología de Trabajo
 
 - Trabajo colaborativo entre 5 integrantes del equipo Axon.
