@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="src/Imagereadme.png" alt="Banner del Proyecto" width="100%">
+</p>
+
 
 # 📌 Análisis de Reseñas para In-N-Out | Axon Analytics
 
@@ -113,8 +117,8 @@ Desarrollar una solución analítica integral basada en datos públicos de Googl
 
 ## 👥 Equipo de Trabajo
 
-- Rocío Ruiz - Project Manager
-- Juan Pablo Fernández
-- Fernando Hernández
-- Sergio Piratoba
-- Michel Torrealba
+- Rocío Ruiz - Project Manager/Machine Learning Engineer
+- Juan Pablo Fernández - Data Analyst
+- Fernando Hernández - Data Engineer
+- Sergio Piratoba - Data Engineer
+- Michel Torrealba - Data Analyst
