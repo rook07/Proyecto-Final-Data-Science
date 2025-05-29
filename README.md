@@ -9,7 +9,7 @@
 
 En la actualidad, las plataformas de reseñas como Google Maps y Yelp concentran millones de opiniones sobre servicios de todo tipo, en especial del sector gastronómico. Estas reseñas representan una fuente de datos de altísimo valor para las empresas, ya que reflejan de forma directa la percepción, satisfacción y preferencias del cliente.
 
-In-N-Out, reconocida cadena de comida rápida con fuerte presencia en el estado de California, se enfrenta a nuevos desafíos en un mercado altamente competitivo: mejorar su operación actual, entender su posicionamiento frente a la competencia y encontrar zonas estratégicas para su expansión.
+In-N-Out, reconocida cadena de comida rápida con fuerte presencia en el estado de California, se enfrenta a nuevos desafíos en un mercado altamente competitivo: mejorar su operación actual, entender su posicionamiento frente a la competencia y encontrar zonas estratégicas para su expansión. En un mercado saturado de opciones y saturado de ruido, cada reseña cuenta. Este proyecto analiza el ecosistema digital de las cadenas de comida rápida en California, para descubrir no solo qué se dice… sino dónde, por qué y hacia dónde se debe avanzar.
 
 A través del análisis masivo y sistemático de reseñas, este proyecto busca brindar a In-N-Out una solución analítica que permita transformar los comentarios de los usuarios en información accionable para la toma de decisiones comerciales.
 
