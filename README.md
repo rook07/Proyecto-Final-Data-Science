@@ -3,7 +3,8 @@
 </p>
 
 
-# 📌 Análisis de Reseñas para In-N-Out | Axon Analytics
+# Más Allá del Sabor: La Expansión Competitiva de In-N-Out
+## Análisis de Reseñas | Axon Analytics
 
 ## 🧠 Contexto General
 
