@@ -27,3 +27,7 @@ El modelo logra una precisión del ~81% para la clase de éxito, con un recall d
 pip install -r requirements.txt
 python src/entrenamiento.py
 ```
+ 
+En el siguiente enlace  puede verse deployado el modelo, a través de la plataforma Streamlit.
+
+https://predicciondeexito.streamlit.app/
