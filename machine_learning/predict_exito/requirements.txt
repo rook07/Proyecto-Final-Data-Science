@@ -8,3 +8,4 @@ joblib
 folium
 geopandas
 streamlit-folium
+xgboost
